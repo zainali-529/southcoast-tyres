@@ -48,7 +48,11 @@ const TopNav = () => {
           {["home", "services", "about", "choose", "testimonials", "contact"].map((section) => (
             <a
               key={section}
-              onClick={() => handleNavLinkClick(section)}
+              href={`#${section}`}
+              onClick={(e) => {
+                e.preventDefault();
+                handleNavLinkClick(section);
+              }}
               style={{ color: activeSection === section ? "inherit" : "inherit", cursor: "pointer" }}
             >
               {section.charAt(0).toUpperCase() + section.slice(1).replace("-", " ")}

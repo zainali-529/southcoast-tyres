@@ -1,0 +1,121 @@
+.garder {
+  border: 1px solid red;
+}
+.contact-container {
+  max-width: 1440px;
+  width: 87%;
+  margin: 0 auto;
+  p {
+    margin: 0;
+  }
+  .heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #00274d;
+  }
+  .circle {
+    background-color: #e8e8e8;
+    border-radius: 200px;
+    width: 80px;
+    height: 80px;
+    color: #00274d;
+    font-size: 1rem;
+  }
+  .text-wrapper {
+    p {
+      font-size: 1rem;
+      color: #333333;
+      font-weight: 500;
+      margin: 0;
+    }
+    h5 {
+      font-size: 1.5rem;
+      color: #00274d;
+      font-weight: 700;
+    }
+  }
+  .first-name,
+  .last-name {
+    width: 49%;
+  }
+  .details-wrapper {
+    p {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #333333;
+      margin-bottom: 0.5rem;
+    }
+    input {
+      border: none;
+      border-radius: 10px;
+      background-color: #e7e7e7;
+      outline: none;
+    }
+    textarea {
+      border: none;
+      height: 150px;
+      border-radius: 10px;
+      background-color: #e7e7e7;
+      outline: none;
+      resize: none;
+    }
+  }
+  .submit-button {
+    button {
+      border: none;
+      border-radius: 10px;
+      background-color: #00274d;
+      color: white;
+      box-sizing: content-box;
+      &:hover {
+        border: 1px solid #00274d;
+        color: #00274d;
+        background-color: transparent;
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .contact-container {
+    .text-wrapper {
+      h5 {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-container {
+    .heading {
+      font-size: 1.5rem;
+    }
+    .circle {
+      width: 65px;
+      height: 65px;
+    }
+    .text-wrapper {
+      p {
+        font-size: 0.8rem;
+      }
+      h5 {
+        font-size: 1rem;
+      }
+    }
+    .details-wrapper {
+      p {
+        font-size: 0.8rem;
+      }
+      input {
+        font-size: 0.8rem;
+      }
+      textarea {
+        font-size: 0.8rem;
+        height: 100px;
+      }
+      button {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

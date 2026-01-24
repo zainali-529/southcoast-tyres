@@ -1,0 +1,32 @@
+footer{
+    background-color: #00274D;
+    .foot-links{
+        p{
+            color: white;
+            margin: 20px;
+        }
+        
+    }
+    h1{
+        color: white;
+font-size: 3rem;
+font-weight: 600;
+    }
+}
+@media screen and (max-width:768px){
+    footer{
+        .foot-links{
+            p{
+                color: white;
+                margin: 10px;
+                font-size: 0.8rem;
+            }
+            
+        }
+        h1{
+            color: white;
+    font-size: 3rem;
+    font-weight: 600;
+        }
+    }
+}

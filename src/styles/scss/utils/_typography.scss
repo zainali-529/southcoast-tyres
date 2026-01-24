@@ -1,0 +1,41 @@
+@use "../common" as *;
+
+.heading-xl {
+    font-size: $font-size-xl;
+    font-weight: $display1-weight;
+    line-height: $line-height-base;
+}
+
+.heading-lg {
+    font-size: $font-size-lg;
+    font-weight: $display1-weight;
+}
+
+.heading-md {
+    font-size: $font-size-md;
+}
+
+.heading-sm {
+    font-size: $font-size-sm;
+}
+
+.heading-xs {
+    font-size: $font-size-xs;
+}
+
+.heading-xxs {
+    font-size: $font-size-xxs;
+}
+
+.body-1 {
+    font-size: $font-size-sm;
+}
+.body-2 {
+    font-size: $font-size-xs;
+}
+.body-3 {
+    font-size: $font-size-xxs;
+}
+.label-1 {
+    font-size: $font-size-xs;
+}

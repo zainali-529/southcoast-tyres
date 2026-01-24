@@ -1,0 +1,139 @@
+@use "../common" as *;
+@use "../helper" as *;
+
+.about-container {
+  background-image: url("../../../assets/about-bg.svg");
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+  .about-wrapper {
+    // border: 1px solid red;
+    max-width: 1440px;
+    width: 87%;
+    margin: 0 auto;
+  }
+  .text-container {
+    h2 {
+      font-size: 24px;
+      font-weight: 600;
+      color: $blue-002;
+    }
+    h1 {
+      color: #333;
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 700;
+    }
+    p {
+      color: #999;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 170%;
+    }
+    button{
+        border-radius: 10px;
+background: $blue-002;
+color: white;
+padding: 7px 25px;
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+    .about-container {
+      .about-image{
+        img{
+            width: 500px;
+        }
+      }
+      }
+  }
+  @media (max-width: 1200px) {
+    .about-container {
+        .text-container {
+            h2 {
+              font-size: 20px;
+            }
+            h1 {
+              font-size: 40px;
+            }
+            p {
+              font-size: 16px;
+              line-height: 160%;
+            }
+          }
+      .about-image{
+        img{
+            width: 450px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    .about-container {
+        .text-container {
+            h2 {
+              font-size: 18px;
+            }
+            h1 {
+              font-size: 34px;
+            }
+            p {
+              font-size: 14px;
+              line-height: 160%;
+            }
+            button{
+                border-radius: 10px;
+        background: $blue-002;
+        font-size: 14px;
+        color: white;
+        padding: 5px 18px;
+            }
+          }
+      .about-image{
+        img{
+            width: 380px;
+        }
+      }
+      }
+  }
+
+  @media (max-width: 992px) {
+    .about-container {
+  padding: 40px 0;
+        .about-wrapper {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          align-items: center;
+          }
+        .text-container {
+            h2 {
+              font-size: 18px;
+            }
+            h1 {
+              font-size: 34px;
+            }
+            p {
+              font-size: 14px;
+              line-height: 160%;
+            }
+            button{
+                border-radius: 10px;
+        background: $blue-002;
+        font-size: 14px;
+        color: white;
+        padding: 5px 18px;
+            }
+          }
+      .about-image{
+      
+        img{
+            margin-bottom: 30px;
+            width: 350px;
+        }
+      }
+      }
+  }

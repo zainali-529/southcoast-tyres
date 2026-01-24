@@ -1,0 +1,160 @@
+@use "../common" as *;
+@use "../helper" as *;
+
+.hero-container {
+    background-image: url("../../../assets/Hero.svg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+    padding: 80px 0;
+  
+    .hero-wrapper {
+      max-width: 1440px;
+      width: 87%;
+      margin: 0 auto;
+  
+      .hero-text {
+        p {
+          font-size: 24px;
+          font-weight: 500;
+          color: $orange;
+        }
+  
+        h1 {
+          color: $grey-333;
+          font-size: 75px;
+          font-style: normal;
+          font-weight: 700;
+  
+          span {
+            color: $blue-002;
+          }
+        }
+  
+        h3 {
+          color: #747474;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+        }
+  
+        .cta-btns {
+          .explore-btn,
+          .contact-btn {
+            border-radius: 50px;
+            padding: 8px 20px;
+          }
+  
+          .explore-btn {
+            background-color: $blue-002;
+            color: white;
+          }
+  
+          .contact-btn {
+            margin-left: 15px;
+            background-color: $orange;
+            color: white;
+          }
+        }
+      }
+  
+      .hero-image {
+        img {
+          height: auto;
+          animation: float 2s ease-in-out infinite; // Apply animation to image only
+        }
+      }
+    }
+  
+    // Define keyframes for smooth up-and-down movement
+    @keyframes float {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+  
+    // Media queries for responsiveness
+    @media (max-width: 1300px) {
+      .hero-wrapper {
+        .hero-text {
+          h1 {
+            font-size: 60px;
+          }
+        }
+        .hero-image img {
+          width: 500px;
+        }
+      }
+    }
+    
+    @media (max-width: 1100px) {
+      .hero-wrapper {
+        .hero-text {
+          h1 {
+            font-size: 60px;
+          }
+          h3 {
+            font-size: 16px;
+          }
+          .cta-btns .explore-btn, .cta-btns .contact-btn {
+            padding: 8px 16px;
+            font-size: 16px;
+          }
+        }
+        .hero-image img {
+          width: 400px;
+        }
+      }
+    }
+    
+    @media (max-width: 992px) {
+      padding: 60px 0;
+      .hero-wrapper .hero-text h1 {
+        font-size: 45px;
+      }
+      .hero-wrapper .hero-text h3 {
+        font-size: 15px;
+      }
+      .hero-image img {
+        width: 350px;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      padding: 30px 0;
+      .hero-wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+  
+        .hero-text p {
+          font-size: 20px;
+        }
+        .hero-text h1 {
+          width: 70%;
+          margin: auto;
+          font-size: 40px;
+        }
+        .hero-text h3 {
+          font-size: 14px;
+          margin-top: 10px;
+        }
+        .cta-btns .explore-btn, .cta-btns .contact-btn {
+          padding: 6px 12px;
+          font-size: 14px;
+        }
+        .hero-image img {
+          display: none;
+        }
+      }
+    }
+  }
+  

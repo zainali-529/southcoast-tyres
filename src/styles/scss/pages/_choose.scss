@@ -1,0 +1,65 @@
+@use "../common" as *;
+@use "../helper" as *;
+
+.card-container {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+  }
+
+  .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3 {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+  }
+
+  p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+.chooseus-container {
+  padding: 100px 30px;
+  max-width: 1140px;
+  margin: 0 auto;
+  // padding: 2rem;
+
+  .chooseus-wrapper {
+    h1 {
+      color: #00274D;
+      margin-bottom: 100px;
+      font-size: 2rem;
+      font-weight: 600;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .card-container {
+    h3 {
+      font-size: 1.25rem;
+    }
+
+    p {
+      font-size: 0.875rem;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.coverage-wrapper {
+    background-image: url('../../../assets/coverage-bg.png');
+    background-position: center;
+    background-size: cover;
+    // background-attachment: fixed;
+    padding: 100px 0;
+    margin-top: 50px;
+  
+    .coverage-text {
+      h1 {
+        color: #ff6f00;
+        font-weight: 700;
+        font-size: 3rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+  
+      ul {
+        font-size: 1.25rem;
+        margin-top: 30px;
+        padding-left: 20px;
+  
+        li {
+          margin-top: 15px;
+          font-weight: 600;
+          position: relative;
+          transition: color 0.3s ease, transform 0.3s ease;
+          color: white;
+  
+          &:before {
+            content: '•';
+            color: #ff6f00;
+            font-size: 1.5rem;
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+  
+          &:hover {
+            color: #ff8c1a;
+            transform: translateX(5px);
+          }
+        }
+      }
+    }
+  
+    .coverage-img {
+      max-width: 500px;
+      width: 100%;
+      img {
+        border-radius: 20px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+  
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+  

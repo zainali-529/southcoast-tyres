@@ -26,21 +26,24 @@ const HeroSection = () => {
           </h1>
           <h3>24/7 South Coast Mobile Tyres</h3>
           <div className="cta-btns my-4">
-            <button
-              className="btn explore-btn"
-              data-aos="zoom-in"
-              onClick={() => handleScrollToSection('services')}
-            >
-              Explore
-            </button>
-            <button
-              className="btn btn-outline contact-btn"
-              data-aos="zoom-in"
-              onClick={() => handleScrollToSection('contact')}
-            >
-              Contact Us
-            </button>
-          </div>
+  {/* Call Button - Replaces "Explore" */}
+  <a href="tel:+447533629850" 
+     className="btn explore-btn" 
+     data-aos="zoom-in"
+     style={{ textDecoration: 'none', display: 'inline-block' }}>
+     📞 Call Now
+  </a>
+
+  {/* WhatsApp Button - Replaces "Contact Us" */}
+  <a href="https://wa.me/447533629850?text=I%20need%20a%20mobile%20tyre%20fitting" 
+     className="btn btn-outline contact-btn" 
+     data-aos="zoom-in"
+     target="_blank" 
+     rel="noopener noreferrer"
+     style={{ textDecoration: 'none', display: 'inline-block' }}>
+     💬 WhatsApp Us
+  </a>
+</div>
         </div>
         <div className="hero-image" data-aos="fade-left">
           <img src={heroImg} alt="Hero" />

@@ -24,7 +24,7 @@ const HeroSection = () => {
   {/* High-Impact Headline */}
   <h1 className="display-4 fw-bold mb-3" style={{ color: '#1a1a1a', lineHeight: '1.2' }}>
     Stuck With a Flat? <br />
-    <span style={{ color: '#002b5c' }}>Mobile Tyre Fitting in Worthing</span>
+    <span style={{ color: '#002b5c' }}> 24 Hour Mobile Tyre Fitting</span>
   </h1>
 
   {/* Readable Sub-headline */}

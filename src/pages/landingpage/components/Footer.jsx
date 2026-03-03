@@ -13,7 +13,7 @@ function Footer() {
           <p>Contact Us</p>
         </div>
         <div className="logo mb-5">
-            <h1>Call Us: 07533629850</h1>
+            <h1>Call Us: tel:07533629850</h1>
         </div>
       </footer>
     </>

@@ -73,7 +73,7 @@ const Contact = () => {
                 </div>
                 <div className="text-wrapper d-flex flex-column justify-content-center">
                   <p>Call us</p>
-                  <h5>07533629850</h5>
+                  <h5>tel:07533629850</h5>
                 </div>
               </div>
               <div className="email-icon-wrapper d-flex">

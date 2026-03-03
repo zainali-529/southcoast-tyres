@@ -43,7 +43,7 @@ const HeroSection = () => {
     </a>
 
     {/* WhatsApp Button */}
-    <a href="https://wa.me/447533629850?text=Hello,%20I%20need%20emergency%20mobile%20tyre%20fitting%20in%20Worthing." 
+    <a href="https://wa.me/447533629850?text=Hello,%20I%20need%20emergency%20mobile%20tyre%20fitting." 
        target="_blank" 
        rel="noopener noreferrer"
        className="btn btn-lg px-4 py-3 fw-bold" 

@@ -19,7 +19,7 @@ const HeroSection = () => {
     <div className='hero-container' id="home">
       <div className="hero-wrapper d-flex align-items-center justify-content-between mx-auto">
         <div className="hero-text" data-aos="fade-up">
-          <p>YOUR JOURNEY</p>
+          <p>Huge Stock of New Tyres</p>
           <h1>
             Stuck With a Flat? Mobile Tyre Fitting in Worthing & Nearby – We Come To You!
             <span>Professional tyre replacement at your home, work, or roadside. 30 minute response time. Open 24/7.</span>

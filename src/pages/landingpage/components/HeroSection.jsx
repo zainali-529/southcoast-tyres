@@ -21,9 +21,10 @@ const HeroSection = () => {
         <div className="hero-text" data-aos="fade-up">
           <p>YOUR JOURNEY</p>
           <h1>
-            Begins with the Right <span>Tires</span>
+            Stuck With a Flat? Mobile Tyre Fitting in Worthing & Nearby – We Come To You!
+            <span>Professional tyre replacement at your home, work, or roadside. 30 minute response time. Open 24/7.</span>
           </h1>
-          <h3>24/7 South coast Mobile tyres</h3>
+          <h3>24/7 South Coast Mobile Tyres</h3>
           <div className="cta-btns my-4">
             <button
               className="btn explore-btn"

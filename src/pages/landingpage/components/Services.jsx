@@ -82,7 +82,7 @@ const Services = () => {
           >
             <ServicesCard
               icon={service2}
-              title="Professional Puncture Repair"
+              title="Professional Mobile Puncture Repair"
               description="Get back on the road quickly with our reliable roadside puncture repair service. We ensure your tyre is fixed safely and efficiently, wherever you are."
               button="More Details"
               onClick={handleShow2}
@@ -95,8 +95,8 @@ const Services = () => {
           >
             <ServicesCard
               icon={service3}
-              title="Workplace Tyre Fitting"
-              description="Say goodbye to workshop visits with our at-work tyre fitting service. Our team comes directly to your workplace, offering convenience without compromising quality."
+              title="Mobile Tyre Fitting"
+              description="Say goodbye to workshop visits with our at-work, workplace or toadside tyre fitting service. Our team comes directly to you, offering convenience without compromising quality."
               button="More Details"
               onClick={handleShow3}
             />
@@ -108,8 +108,8 @@ const Services = () => {
           >
             <ServicesCard
               icon={service4}
-              title="Emergency Breakdown Support"
-              description="Stuck on the road? Our emergency breakdown support service ensures prompt assistance to get you moving again quickly and safely."
+              title="Onsite Tyre Fitting"
+              description="Stuck on the road with flat tyre? South Coast mobile tyres can do onsite tyre fitting at a client's home, office, or wherever the vehicle is found."
               button="More Details"
               onClick={handleShow4}
             />
@@ -121,8 +121,8 @@ const Services = () => {
           >
             <ServicesCard
               icon={service5}
-              title="Seasonal Tyre Changeover"
-              description="Prepare for changing seasons with our seasonal tyre changeover service. We ensure your tyres are optimized for weather and road conditions."
+              title="Seasonal Mobile Tyre Change"
+              description="Looking for top quality tyres at unbeatable prices? Prepare for changing seasons with our seasonal tyre changeover service. Call us for seasonal mobile tyre fitting!"
               button="More Details"
               onClick={handleShow5}
             />
@@ -134,8 +134,8 @@ const Services = () => {
           >
             <ServicesCard
               icon={service6}
-              title="Fleet Tyre Management"
-              description="Optimize your business operations with our comprehensive fleet tyre management services, designed to save you time and money."
+              title="24 Hr Mobile Tyre Fitting Fleet"
+              description="Flat Tyre? This can be a stressful moment for you if you have broken down on road. We offer mobile tyre replacement service in Fleet 7 days a week. Call for urgent mobile tyre fitting!"
               button="More Details"
               onClick={handleShow6}
             />

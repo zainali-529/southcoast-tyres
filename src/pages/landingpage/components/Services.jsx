@@ -220,9 +220,14 @@ const Services = () => {
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
+<Button 
+  variant="secondary" 
+  as="a" 
+  href="tel:+447533629850" 
+  className="explore-btn"
+>
+  📞 Call Now: 07533 629850
+</Button>            Close
         </Modal.Footer>
       </Modal>
 

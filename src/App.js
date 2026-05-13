@@ -10,6 +10,25 @@ const App = () => {
     AOS.init({ duration: 1000, easing: 'ease-in-out', once: true });
   }, []);
 
+    useEffect(() => {
+    // Load Google tag script
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = "https://www.googletagmanager.com/gtag/js?id=AW-17522582965";
+    document.head.appendChild(script);
+
+    // Initialize gtag
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+
+    window.gtag = gtag;
+
+    gtag("js", new Date());
+    gtag("config", "AW-17522582965");
+  }, []);
+
   return (
     <div>
       <HomePage />
